@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -15,19 +9,101 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("./assets/font/fa-solid-900.eot");
+  src: url("./assets/font/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("./assets/font/fa-solid-900.woff") format("woff"), url("./assets/font/fa-solid-900.ttf") format("truetype"); }
+
+.fa,
+.far,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+}
+
+.fa-star:before {
+  content: "\f005";
+}
+
+.fa-heart:before {
+  content: "\f004";
+}
+
+.fa.fa-star {
+  color: #6b6e73;
+  font-size: 10px;
+}
+
+.outer {
+  width: 400px;
+  background: white;
+}
+
+.profile-container {
+  border: 1px solid #797676;
+  border-radius: 8px;
+  margin: 16px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  font-size: 20px;
+  color: #6d6b6b;
+  background: #e4e4e4;
+  border-bottom: 1px solid #797676;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.profile-body {
+  padding: 32px;
+}
+
+.profile-avatar {
+  width: 150px;
+  border-radius: 75px;
+  margin-bottom: 10px;
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.profile-title,
+.profile-location {
+  font-size: 12px;
+  color: #a7a7a7;
+}
+
+.profile-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  border-top: 1px solid #797676;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background: #efefef;
+}
+
+.profile-views-desc,
+.profile-webviews-desc,
+.profile-rateviews-desc {
+  font-size: 11px;
+  color: #a7a7a7;
 }
