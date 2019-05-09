@@ -37,11 +37,11 @@ class App extends Component {
               </div>
               <div className="profile-footer">
                 <div className="profile-views">
-                  <div className="profile-views-number">1234</div>
+                  <div className="profile-views-number">1,234</div>
                   <div className="profile-views-desc">Profile Views</div>
                 </div>
                 <div className="profile-webviews">
-                  <div className="profile-webviews-number">5678</div>
+                  <div className="profile-webviews-number">5,678</div>
                   <div className="profile-webviews-desc">Website Views</div>
                 </div>
                 <div className="profile-rateviews">
@@ -52,7 +52,7 @@ class App extends Component {
                     <img src={starfill} alt="starfill" />
                     <img src={star} alt="star" />
                   </div>
-                  <div className="profile-rateviews-desc">Avg Rating</div>
+                  <div className="profile-rateviews-desc">Avg. Rating</div>
                 </div>
               </div>
             </div>
