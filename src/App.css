@@ -53,7 +53,7 @@
   width: 420px;
   border: 1px solid #9b9b9b;
   border-radius: 8px;
-  margin: 16px;
+  margin: 23px;
 }
 
 .profile-header {
@@ -96,7 +96,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 19px 28px;
+  padding: 19px 27px;
   border-top: 1px solid #9b9b9b;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -120,6 +120,6 @@
 .profile-views-desc,
 .profile-webviews-desc,
 .profile-rateviews-desc {
-  font-size: 12px;
+  font-size: 14px;
   color: #9F9F9F;
 }
