@@ -82,13 +82,14 @@
 .profile-name {
   font-size: 24px;
   font-weight: 600;
+  color: #3E4D57;
   margin-bottom: 6px;
 }
 
 .profile-title,
 .profile-location {
   font-size: 17px;
-  color: #a7a7a7;
+  color: #707070;
 }
 
 .profile-footer {
@@ -106,6 +107,7 @@
 .profile-webviews-number {
   font-size: 26px;
   margin-bottom: 5px;
+  color: #555555;
 }
 
 .profile-rateviews {
@@ -119,5 +121,5 @@
 .profile-webviews-desc,
 .profile-rateviews-desc {
   font-size: 12px;
-  color: #a7a7a7;
+  color: #9F9F9F;
 }
